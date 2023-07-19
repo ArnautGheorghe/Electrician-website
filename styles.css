@@ -546,3 +546,20 @@ padding: 15px;
 /* .contact-address-item svg {
   stroke: red;
 } */
+.cifre {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 50px;
+border: 5px #f0883e solid;
+background-color: #454b60;
+color: white;
+}
+.cifre img{
+border: 2px solid #f0883e;
+margin-top: 50px;
+}
+.cifre.cifre-section-heading h2{
+  color: #f0883e;
+}
