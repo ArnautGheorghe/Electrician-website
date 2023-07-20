@@ -625,3 +625,37 @@ margin-top: 50px;
 #first-tel:focus, #first-tel:hover{
   background-color: #FF6C00;
 }
+#period{
+  color:#f0883e
+}
+.footer-design{
+  background-color: #38393c;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  color:#f0883e;
+ padding:30px;
+}
+
+.electrician-valeni{
+  color:white;
+  outline: none ;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.electrician-valeni:focus, .electrician-valeni:hover{
+  color: #f0883e;
+}
+.contact-section{
+  display: flex;
+justify-content: space-evenly;
+}
+
+.contacts-logo-section, .working-hours{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
