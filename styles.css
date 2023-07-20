@@ -563,3 +563,65 @@ margin-top: 50px;
 .cifre.cifre-section-heading h2{
   color: #f0883e;
 }
+
+.book-a-service-btn, .contact-address-item{
+  background-color: transparent;
+  border-radius: 25px;
+  border: 1px solid #FF6C00;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  margin-left: 40px;
+  padding: 12px 25px;
+}
+
+.book-a-service-btn:focus, .contact-address-item:focus, .contact-address-item:hover,
+.book-a-service-btn:hover {
+  background-color: #FF6C00;
+}
+.telefon{
+  width:250px;
+  text-decoration: none;
+  background-color: rgb(10, 33, 247);
+  color: #fff;
+}
+.facebook{
+  width:250px;
+  text-decoration: none;
+  background-color: #4267B2;
+  color: #fff;
+}
+
+.whatsapp{
+  width:250px;
+  text-decoration: none;
+  background-color: #25d366;
+  color: #fff;
+}
+
+.email{
+  width:250px;
+  text-decoration: none;
+  background-color: #7b0099;
+  color: #fff;
+}
+.contacts.email .contact-address-item .link{
+  color: #fff;
+}
+
+#yahoo-mail, #fb-page, #tel-mobil, #whatsapp-adress{
+  color: #fff;
+}
+#first-tel{
+  background-color: transparent;
+  border-radius: 25px;
+  border: 1px solid #FF6C00;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  margin-left: 40px;
+  padding: 12px 25px;
+}
+#first-tel:focus, #first-tel:hover{
+  background-color: #FF6C00;
+}
