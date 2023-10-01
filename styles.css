@@ -853,7 +853,7 @@ height:100%;
 
 .menu-toggle:hover,
 .menu-toggle:focus >button{
-  color:#2196f3;
+  color:#ff6c00;
   
 }
 
@@ -894,7 +894,7 @@ position: absolute;
 }
 
 .menu-container .menu-toggle:focus, .menu-container .menu-toggle:hover{
-  color:#2196F3;
+  color:#ff6c00;
 }
 .mobile-menu {
   padding: 0;
@@ -920,7 +920,7 @@ margin: 10px 20px;
 
 }
 .mobile-menu .link:hover, .mobile-menu .link:focus{
-  color:#2196F3;
+  color:#ff6c00;
 }
 
 .first-half-section-mobile-menu{
@@ -940,7 +940,7 @@ flex-direction: column;
 padding-bottom: 64px;
 }
 .menu-mobile-tel{
-  color: #2196F3;
+  color: #ff6c00;
 font-family: Roboto;
 font-size: 34px;
 font-style: normal;
