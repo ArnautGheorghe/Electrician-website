@@ -17,10 +17,30 @@
   <!-- Hero Section -->
   <div class="container header-container">
     <!-- Logo and Social Links -->
-  
+      <div class="menu-mobile-btn">
+          <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu">
+            <svg
+              width="40"
+              height="40"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
 
-    <div class="header-container-content">
+    <div class="header-container-content header-container-content-mobile">
       <!-- Header -->
+
+   
       <header class="global-header">
         <div class="global-header-container">
           <nav class="main-navigation">
@@ -40,15 +60,15 @@
         </div>
       </header>
 
-      <section class="section global-header-content">
-        <div class="section-description">
+      <section class="section global-header-content global-header-mobile">
+        <div class="section-description section-description-mobile">
           <div class="heading-with-dash">
-            <img src="images/landing-dash.svg" alt="-" class="dash" />
+            <img src="images/landing-dash.svg" alt="-" class="dash dash-mobile" />
             <h3>
               <span>Instalatii electrice in Prahova si imprejurimi</span>
             </h3>
           </div>
-          <h1 class="hero-heading" title="BarberShop">Electrician Prahova</h1>
+          <h1 class="hero-heading hero-heading-mobile" title="BarberShop">Electrician Prahova</h1>
           <p class="hero-sub-heading">
             Experti in instalatii electrice. <br />
             Cel mai bun raport pret/calitate.
@@ -58,6 +78,8 @@
           
         </div>
       </section>
+
+
     </div>
   </div>
 
@@ -102,7 +124,7 @@
           </div>
           <h2 class="section-heading">Servicii si preturi</h2>
         </div>
-        <div class="prices">
+        <div class="prices ">
           <ul class="prices-list">
             <li>
               <span>Schimbare tablou electric</span>
@@ -350,15 +372,15 @@
           <div class="working-hours">
             <h3 class="subheading-with-dash">Program de lucru</h3>
             <p>
-              Luni-Sambata de la <time datetime="8:00AM">8:00 AM</time> pana la
-              <time datetime="5:00PM">17:00 PM</time>
+              Luni-Sambata de la <time datetime="8:00AM">8:00 </time> pana la
+              <time datetime="5:00PM">17:00 </time>
             </p>
           </div>
           <div class="working-hours">
             <h3 class="subheading-with-dash">Urgente</h3>
             <p>
-              Luni-Sambata de la <time datetime="7:00AM">7:00 AM</time> pana la
-              <time datetime="8:00PM">20:00 PM</time>
+              Luni-Sambata de la <time datetime="7:00AM">7:00 </time> pana la
+              <time datetime="8:00PM">20:00 </time>
             </p>
           </div>
           </div>
@@ -395,6 +417,60 @@
       
     </div>
   </footer>
+
+<div class="menu-container js-menu-container" id="mobile-menu">
+      <div class="first-half-section-mobile-menu">
+        <div class="menu-mobile-section-one">
+          <ul class="mobile-menu">
+            <li><a href="./index.html" class="link">Asigurare RCA</a></li>
+            <li>
+              <a href="./portfolio.html" class="link">Asigurari generale</a>
+            </li>
+            <li><a href="./contacts.html" class="link">NOU! Travel</a></li>
+            <li><a href="./contacts.html" class="link">Parteneriat</a></li>
+          </ul>
+        </div>
+        <div class="aranjare-btn">
+          <button class="menu-toggle js-close-menu">
+            <svg
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40">
+              <path
+                fill-rule="evenodd"
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="second-half-section-mobile-menu">
+        <div class="menu-mobile-section-two">
+          <ul class="contacts-mobile-link">
+            <li>
+              <a class="menu-mobile-tel" href="tel:+40756250562"
+                >0756 250 562</a
+              >
+            </li>
+            <li>
+              <a class="menu-mobile-mail" href="mailto:agigi94@yahoo.com"
+                >agigi94@yahoo.com</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"></script>
+    <script src="./js/mobile-menu.js"></script>
+
   <script>
     feather.replace()
   </script>
