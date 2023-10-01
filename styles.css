@@ -823,7 +823,7 @@ height:100%;
   .menu {
     display: none;
   }
-}
+
 
 .menu .link {
   padding: 10px;
@@ -876,9 +876,7 @@ flex-direction: column;
 .menu-container.is-open {
   transform: translateX(0);
 }
-.aranjare-btn{
 
-}
 
 
 
@@ -990,9 +988,7 @@ text-decoration: none;
 
 .detail-list-item{width: 100%;}
 
-.mobile-attention{
 
-}
 
 .details-area-mobile{
 margin-top: 60px;
@@ -1023,7 +1019,7 @@ margin-top: 60px;
 
 
 .header-container-content-mobile{
- background: linear-gradient(rgba(25, 28, 38, 0.50), rgba(25, 28, 38, 0.20)), url('./images/cover-hero4.jpg');
+ background: linear-gradient(rgba(25, 28, 38, 0.50), rgba(25, 28, 38, 0.20)), url('./images/imaginilucrari/cover-hero4.jpg');
   display: flex;
   padding: 40px;
   width: 100%;
@@ -1036,7 +1032,7 @@ margin-top: 60px;
 .why-us-section{
   display: none;
 }
-
+}
 
 @media (min-width: 768px) {
   .menu-toggle {
@@ -1059,7 +1055,7 @@ margin-top: 60px;
   font-size: 72px;
 }
 .header-container-content-mobile{
-   background: linear-gradient(rgba(25, 28, 38, 0.50), rgba(25, 28, 38, 0.20)), url('./images/cover-hero3.jpg');
+   background: linear-gradient(rgba(25, 28, 38, 0.50), rgba(25, 28, 38, 0.20)), url('./images/imaginilucrari/cover-hero3.jpg');
   
 }
 .section-images{
@@ -1083,7 +1079,7 @@ margin-top: 60px;
 }
 
 
-}
+
 .barbers-list {
   display: flex;
   flex-direction: row;
@@ -1108,7 +1104,7 @@ margin-top: 60px;
     justify-content: center;
     align-items: center;
 }
-
+}
 
 
 /* Desktop design */
