@@ -903,7 +903,7 @@ position: absolute;
   
 }
 
-.mobile-menu .link {
+.mobile-menu  {
   display: block;
 padding: 5px;
 text-decoration: none;
@@ -919,7 +919,7 @@ margin: 10px 20px;
 
 
 }
-.mobile-menu .link:hover, .mobile-menu .link:focus{
+.mobile-menu:hover, .mobile-menu:focus{
   color:#ff6c00;
 }
 
@@ -932,6 +932,7 @@ margin: 10px 20px;
   display: flex;
   flex-direction: column;
   padding-top: 150px;
+  padding-left: 25px;
 }
 .contacts-mobile-link{
   gap: 32px;
@@ -1081,8 +1082,7 @@ margin-top: 60px;
   padding: 30px 40px;
 }
 
-.why-us-section{
-  display: flex;
+
 }
 .barbers-list {
   display: flex;
@@ -1091,8 +1091,37 @@ margin-top: 60px;
 .motto-cards{
   flex-direction: row;
 }
+.section-with-two-columns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+.about-second-part{
+ margin-top: 30px;
+}
+
+.section-description{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 /* Desktop design */
 @media screen and (min-width: 1280px) {
 
+.section-with-two-columns {
+  display: flex;
+  flex-direction: row;
+}
+.why-us-section{
+  display: flex;
+}
+.contact-section{
+  flex-direction: row;
+}
 }
