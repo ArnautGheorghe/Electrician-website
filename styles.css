@@ -46,6 +46,10 @@ h2 {
 ul {
   list-style-type: none;
 }
+svg{
+  color: #ff6c00;
+}
+
 
 .container {
   max-width: 1200px;
